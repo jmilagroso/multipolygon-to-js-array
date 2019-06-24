@@ -4,7 +4,36 @@
   "description": "Multipolygon data type to js array conversion.",
   "main": "index.js",
   "scripts": {
-    "test": "jest test --coverage"
+    "lint": "eslint .",
+    "test": "jest test",
+    "test-with-coverage": "jest --coverage",
+    "coveralls": "cat coverage/lcov.info | coveralls"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm test",
+      "pre-push": "npm run lint && npm test"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmilagroso/multipolygon-to-js-array.git"
+  },
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node",
+    "moduleDirectories": [
+      "node_modules"
+    ],
+    "globals": {
+      "NODE_ENV": "test"
+    },
+    "moduleFileExtensions": [
+      "js"
+    ]
+  },
+  "engines": {
+    "node": "8.16.0"
   },
   "keywords": [
     "data",
