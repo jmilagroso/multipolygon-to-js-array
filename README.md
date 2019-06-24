@@ -11,7 +11,6 @@
 * [typcheckjs](https://github.com/jmilagroso/typcheckjs) - JS data type checking.
 
 ### Setup
-
 ```sh
 npm install --save multipolygon-to-js-array
 ```
