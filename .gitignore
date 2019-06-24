@@ -1,0 +1,26 @@
+# package directories
+node_modules
+jspm_packages
+.vscode
+.idea
+
+# serverless directories
+.serverless
+
+# tmp files/mac os
+*.swp
+.DS_Store
+
+# jest
+coverage
+__tests__/_config.json
+
+# esdoc
+docs
+
+# yarn 
+yarn-error.log 
+package-lock.json
+
+# nvm
+.nvmrc
