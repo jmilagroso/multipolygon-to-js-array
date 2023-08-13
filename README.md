@@ -2,7 +2,6 @@
 
  Convert Multiploygon data to JS array.
  
-[![Build Status](https://travis-ci.org/jmilagroso/multipolygon-to-js-array.svg?branch=master)](https://travis-ci.org/jmilagroso/multipolygon-to-js-array)
 [![Coverage Status](https://coveralls.io/repos/github/jmilagroso/multipolygon-to-js-array/badge.svg?branch=master)](https://coveralls.io/github/jmilagroso/multipolygon-to-js-array?branch=master)
 
 ## Tech
